@@ -10,10 +10,7 @@
   --present-color: #c8a91f;
   --gap: 4px;
 }
-@media (max-width: 600px) {
-  .board-row {
-      width: 90%; /* Ajustar el ancho del tablero */
-  }
+
 
 /* keyframes for shake animation */
 @keyframes shake {
@@ -114,7 +111,7 @@ main {
 }
 
 .keyboard-row {
-  width: 100%;
+  width: 130%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30px, auto));
   justify-content: center;
