@@ -11,6 +11,7 @@
   --gap: 4px;
 }
 
+
 /* keyframes for shake animation */
 @keyframes shake {
   0% {
@@ -110,7 +111,7 @@ main {
 }
 
 .keyboard-row {
-  width: 100%;
+  width: 130%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30px, auto));
   justify-content: center;
